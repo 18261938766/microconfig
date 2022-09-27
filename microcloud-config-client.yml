@@ -14,10 +14,12 @@ spring:
 #    service-url:
 #      defaultZone: http://admin:enjoy@localhost:7001/eureka
 
-info:
-  app.name: microcloud-config-client-dev
-  company.name: enjoy
 
+info:
+  app:
+    name: microcloud-config-client-dev
+  company:
+    name: enjoy
 ---
 server:
   port: 8102
