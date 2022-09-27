@@ -8,7 +8,7 @@ server:
 spring:
   profiles: dev
   application:
-    name: microconfig-test-client2
+    name: microconfig-test-client
 #eureka:
 #  client:
 #    service-url:
@@ -17,9 +17,9 @@ spring:
 
 info:
   app:
-    name: microcloud-config-client-dev
+    name: microcloud-config-client-dev2
   company:
-    name: enjoy
+    name: enjoy2
 ---
 server:
   port: 8102
